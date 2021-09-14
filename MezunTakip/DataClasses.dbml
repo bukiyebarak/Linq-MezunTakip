@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Mezun_Takip" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-3290BLE;Initial Catalog=Mezun_Takip;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Mezun_TakipConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Calisma_Bilgileri" Member="Calisma_Bilgileri">
+    <Type Name="Calisma_Bilgileri">
+      <Column Name="Sirket" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Pozisyon" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sektor" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BaslangıcYılı" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="BitisYılı" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="IlId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IlceId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="UlkeId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Genel_Bilgiler" Member="Genel_Bilgiler">
+    <Type Name="Genel_Bilgiler">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Iletisim" Member="Iletisim">
+    <Type Name="Iletisim">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="CepTelefonu" Type="System.String" DbType="NVarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adres" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kimlik_Bilgileri" Member="Kimlik_Bilgileri">
+    <Type Name="Kimlik_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TCKimlikNo" Type="System.String" DbType="NVarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="DogumTarihi" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Cinsiyet" Type="System.Char" DbType="Char(1) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Ogrenim_Turu" Member="Ogrenim_Turu">
+    <Type Name="Ogrenim_Turu">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OgrenımTurAdı" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_EgitimBilgileri" Member="vw_EgitimBilgileri">
+    <Type Name="vw_EgitimBilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(12) NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenimTuruId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Fakulte" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Bolum" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DiplomaNotu" Type="System.String" DbType="NChar(3) NOT NULL" CanBeNull="false" />
+      <Column Name="BitirmeYılı" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="OgrenimYılı" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="OgrenımTurAdı" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Ad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Soyad" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="TCKimlikNo" Type="System.String" DbType="NVarChar(11) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Erisim_Izni" Member="Erisim_Izni">
+    <Type Name="Erisim_Izni">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ErisimDurumu" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kurum_Olcegi_Bilgileri" Member="Kurum_Olcegi_Bilgileri">
+    <Type Name="Kurum_Olcegi_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KurumOlcegiAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Yıl" Member="Yıl">
+    <Type Name="Yıl">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Yıllar" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Resim" Member="Resim">
+    <Type Name="Resim">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ResimSec" Type="System.Data.Linq.Binary" DbType="Image" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ResimId" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Iller" Member="Iller">
+    <Type Name="Iller">
+      <Column Name="pkod" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="pchar" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Universite" Member="Universite">
+    <Type Name="Universite">
+      <Column Name="Id" Type="System.Double" DbType="Float NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UniversiteAdi" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_IsBilgileri" Member="vw_IsBilgileri">
+    <Type Name="vw_IsBilgileri">
+      <Column Name="PozisyonAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="ErisimDurumu" Type="System.String" DbType="NVarChar(60) NOT NULL" CanBeNull="false" />
+      <Column Name="SektorAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="KurumOlcegiAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IErisimId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SektorId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PozisyonId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="KurumAdi" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="Yıllar" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="KurumOlcegiId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CV" Member="CV">
+    <Type Name="CV">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CVOgrenciNo" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Konum" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Egitim_Bilgileri" Member="Egitim_Bilgileri">
+    <Type Name="Egitim_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EgitimOgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="OLErisimId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OLUniversiteId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OLFakulte" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="OLGirisTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OLMezuniyetTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LErisimId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LUniversiteId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LFakulte" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LGirisTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LMezuniyetTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLErisimId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLUniversiteId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLEnstitü" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLGirisTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLMezuniyetTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DokErisimId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DokUniversiteId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DokEnstitü" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DokGirisTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DokMezuniyetTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TıpErisimId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TıpUniversiteId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TıpEnstitü" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TıpGirisTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TıpMezuniyetTarihi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="OLBolum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LBolum" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="YLAnabilim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DAnabilim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="TUAnabilim" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Is_Bilgileri" Member="Is_Bilgileri">
+    <Type Name="Is_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="IsOgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="IErisimId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SektorId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PozisyonId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KurumAdi" Type="System.String" DbType="NVarChar(80) NOT NULL" CanBeNull="false" />
+      <Column Name="Yıllar" Type="System.String" DbType="NVarChar(4) NOT NULL" CanBeNull="false" />
+      <Column Name="KurumOlcegiId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Pozisyon_Bilgileri" Member="Pozisyon_Bilgileri">
+    <Type Name="Pozisyon_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PozisyonAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="PozisyonOgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Sektor_Bilgileri" Member="Sektor_Bilgileri">
+    <Type Name="Sektor_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SektorOgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="SektorAdi" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tavsiyeler" Member="Tavsiyeler">
+    <Type Name="Tavsiyeler">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TavsiyeOgrenciNo" Type="System.String" DbType="NVarChar(13) NOT NULL" CanBeNull="false" />
+      <Column Name="Yorum" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Profil_Bilgileri" Member="Profil_Bilgileri">
+    <Type Name="Profil_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="OgrenciNoId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Isım" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsımId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoyIsım" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoyIsımId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EMail" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmailId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adres" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="AdresId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CepTel" Type="System.String" DbType="NVarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="CepTelId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EvTel" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="EvTelId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Web" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WebId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Facebook" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FacebookId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TwitterId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Linkedin" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="linkedinId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DogumYeri" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DogumYeriId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_KullaniciBilgileri" Member="vw_KullaniciBilgileri">
+    <Type Name="vw_KullaniciBilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="OgrenciNoId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Isım" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="IsımId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoyIsım" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="SoyIsımId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EMail" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EmailId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adres" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="AdresId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CepTel" Type="System.String" DbType="NVarChar(11) NOT NULL" CanBeNull="false" />
+      <Column Name="CepTelId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="EvTel" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="EvTelId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Web" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="WebId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Facebook" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="FacebookId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Twitter" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="TwitterId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Linkedin" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="linkedinId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DogumYeri" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DogumYeriId" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sifre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kullanıcı_Bilgileri" Member="Kullanıcı_Bilgileri">
+    <Type Name="Kullanıcı_Bilgileri">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="KullanıcıAdı" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sifre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="OgrenciNo" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

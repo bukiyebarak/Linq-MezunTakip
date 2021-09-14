@@ -1,0 +1,508 @@
+.solid-menus {
+
+	.navbar-default {
+
+		&.navbar-default-light {
+
+			background: #EFEFEF;
+			border-color: #C2C2C2;
+
+			&.navbar-hover {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #e7e7e7 !important;
+						color: #333 !important;
+
+					}
+
+				}
+
+			}
+
+			.navbar-nav .open .dropdown-menu {
+
+				background: white;
+
+			}
+
+			.navbar-nav { 
+
+				margin-top: 0;
+				margin-bottom: 0;
+
+				> li > a {
+
+					&:hover {
+
+						background-color: #E7E7E7 !important;
+
+					}
+
+				}
+
+			}
+
+			.navbar-toggle {
+
+				border: 0;
+				padding-left: 0;
+
+				.icon-bar {
+
+					background-color: #777;
+
+				}
+
+				&:hover, &:focus {
+
+					background-color: transparent;
+
+				}
+				
+			}
+
+			.mini-menu {
+
+				.i-list.i-list-i-block {
+
+					> li > a:hover {
+
+						background-color: #e7e7e7 !important;
+						color: #333 !important;
+
+					}
+
+				}
+
+			}
+
+		}
+
+		&.navbar-default-dark {
+			
+			background: #151515;
+			border-left: 1px solid #151515;
+			border-right: 1px solid #151515;
+			border-bottom: 0;
+			border-top: 0;
+
+			.navbar-brand {
+
+				color: white;
+
+			}
+
+			.navbar-toggle {
+
+				border: 0;
+				padding-left: 0;
+
+				.icon-bar {
+
+					background-color: #E00101;
+
+				}
+
+				&:hover, &:focus {
+
+					background-color: transparent;
+
+				}
+				
+			}
+
+			.navbar-nav { 
+
+				margin-top: 0;
+				margin-bottom: 0;
+
+				> li > a {
+
+					color: white;
+
+					&:hover {
+
+						background: #E00101;
+
+					}
+
+				}
+
+			}
+
+			.navbar-nav > .open > a, 
+			.navbar-default .navbar-nav > .open > a:focus, 
+			.navbar-default .navbar-nav >.open > a:hover {
+
+				background-color: #E00101;
+
+			}
+
+			&.navbar-hover {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #E00101;
+						color: white !important;
+
+					}
+
+				}
+
+				.dropdown-menu {
+
+					> li > a:focus {
+
+						color: #333;
+						background-color: none;
+
+					}
+
+					> li > a:hover {
+
+						color: white;
+						background-color: #E00101;
+
+					}
+
+				}
+
+			}
+
+			&.navbar-click {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #E00101;
+						color: white !important;
+
+					}
+
+				}
+
+				.dropdown-menu {
+
+					> li > a:focus, > li > a:hover {
+
+						background-color: #E00101;
+						color: white !important;
+
+					}
+
+				}
+
+			}
+
+			.dropdown-menu {
+
+				background: white;
+				border: 1px solid transparent;
+				box-shadow: none;
+
+			}
+
+			.navbar-pos-search {
+
+				.x-search i { 
+
+					color: #E00101;
+
+				}
+
+			}
+
+			#search_term {
+
+				background: #151515;
+				color: white;
+
+			}
+
+			.s-list > li > a:hover,
+			.s-list > li > a:hover > span {
+
+				color: white;
+				background-color: #E00101 !important;
+
+			}
+
+			.s-list.s-list-sprite > li > a:hover {
+
+				color: #2886D6 !important;
+				background-color: transparent !important;
+
+			}
+
+			.bb-2px {
+
+				border-color: #E00101;
+
+			}
+
+			.tile-container .tile:hover {
+
+				background: #E00101;
+				color: white !important;
+
+				a {
+					
+					color: white !important;
+
+				}
+
+			}
+
+			.i-list-i-block {
+
+	    		&.i-list-i-block-md {
+
+					> li {
+
+						a {
+							
+							display: block !important;
+							padding: 10px 20px !important;
+							text-decoration: none;
+							color: #333;
+
+							&:hover {
+
+								background: #E00101 !important;
+								color: white;
+
+
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		
+		}
+
+		&.navbar-default-blue {
+			
+			background: #05668D;
+			border-left: 1px solid #05668D;
+			border-right: 1px solid #05668D;
+			border-bottom: 0;
+			border-top: 0;
+
+			.navbar-brand {
+
+				color: white;
+
+			}
+
+			.navbar-toggle {
+
+				border: 0;
+				padding-left: 0;
+
+				.icon-bar {
+
+					background-color: #4AC7F9;
+
+				}
+
+				&:hover, &:focus {
+
+					background-color: transparent;
+
+				}
+				
+			}
+
+			.navbar-nav { 
+
+				margin-top: 0;
+				margin-bottom: 0;
+
+				> li > a {
+
+					color: white;
+
+					&:hover {
+
+						background: #055C7F;
+
+					}
+
+				}
+
+			}
+
+			.navbar-nav > .open > a, 
+			.navbar-default .navbar-nav > .open > a:focus, 
+			.navbar-default .navbar-nav >.open > a:hover {
+
+				background-color: #055C7F;
+
+			}
+
+			&.navbar-hover {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #055C7F;
+						color: white !important;
+
+					}
+
+				}
+
+			}
+
+			&.navbar-hover {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #055C7F;
+
+					}
+
+				}
+
+			}
+
+			&.navbar-click {
+
+				.dropdown:hover {
+
+					> a {
+
+						background-color: #055C7F;
+						color: white !important;
+
+					}
+
+				}
+
+				.dropdown-menu {
+
+					> li > a:focus, > li > a:hover {
+
+						background-color: #055C7F;
+						color: white !important;
+
+					}
+
+				}
+
+			}
+
+			.dropdown-menu {
+
+				background: white;
+				border: 1px solid transparent;
+				box-shadow: none;
+
+				> li > a:focus, > li > a:hover {
+
+					color: white;
+					background-color: #055C7F;
+
+				}
+
+			}
+
+			.navbar-pos-search {
+
+				.x-search i { 
+
+					color: #4AC7F9;
+
+				}
+
+			}
+
+			#search_term {
+
+				background: #05668D;
+				color: white;
+
+			}
+
+			.s-list > li > a:hover,
+			.s-list > li > a:hover > span {
+
+				color: white !important;
+				background-color: #055C7F !important;
+
+			}
+
+			.s-list.s-list-sprite > li > a:hover {
+
+				color: #2886D6 !important;
+				background-color: transparent !important;
+
+			}
+
+			.bb-2px {
+
+				border-color: #055C7F;
+
+			}
+
+			.tile-container .tile:hover {
+
+				background: #055C7F;
+				color: white !important;
+
+				a {
+					
+					color: white !important;
+
+				}
+
+			}
+
+			.i-list-i-block {
+
+	    		&.i-list-i-block-md {
+
+					> li {
+
+						a {
+							
+							display: block !important;
+							padding: 10px 20px !important;
+							text-decoration: none;
+							color: #333;
+
+							&:hover {
+
+								background: #05668D !important;
+								color: white;
+
+
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}

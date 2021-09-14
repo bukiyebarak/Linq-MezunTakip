@@ -1,0 +1,297 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Master.cs" Inherits="MezunTakip.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <style>
+        .alert {
+            padding: 50px;
+            background-color: #f44336;
+            color: white;
+            opacity: 1;
+            transition: opacity 0.6s;
+            margin-bottom: 15px;
+        }
+
+            .alert.success {
+                background-color: #04AA6D;
+            }
+
+            .alert.info {
+                background-color: #2196F3;
+            }
+
+            .alert.warning {
+                background-color: #ff9800;
+            }
+
+        .closebtn {
+            margin-left: 15px;
+            color: white;
+            font-weight: bold;
+            float: right;
+            font-size: 50px;
+            line-height: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+            .closebtn:hover {
+                color: black;
+            }
+    </style>
+    <title>Mezun Takip Programı</title>
+    <!-- Font Icons -->
+    <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">
+    <!--     <link media="all" rel="stylesheet" href="css/fonts/roxine-font-icon/roxine-font.css"> -->
+    <link media="all" rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css">
+    <!-- Vendors -->
+    <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.theme.default.min.css">
+    <link media="all" rel="stylesheet" href="vendors/animate/animate.css">
+    <link media="all" rel="stylesheet" href="vendors/rateyo/jquery.rateyo.css">
+    <link media="all" rel="stylesheet" href="vendors/bootstrap-datepicker/css/bootstrap-datepicker.css">
+    <link media="all" rel="stylesheet" href="vendors/fancyBox/source/jquery.fancybox.css">
+    <link media="all" rel="stylesheet" href="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.css">
+    <!-- Bootstrap 4 -->
+    <link media="all" rel="stylesheet" href="css/bootstrap.css">
+    <!-- Rev Slider -->
+    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/navigation.css">
+    <!-- Theme CSS -->
+    <link media="all" rel="stylesheet" href="css/main.css">
+    <!-- Custom CSS -->
+    <link media="all" rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <form id="form1" runat="server" novalidate>
+        <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+        <div class="preloader" id="pageLoad">
+            <div class="holder">
+                <div class="coffee_cup"></div>
+            </div>
+        </div>
+        <!--Side panel-->
+        <nav class="nav-wrap bg-white">
+            <!-- opener inside of collapsible menu -->
+            <div class="nav-trigger nav-trigger-close">
+                <a href="#">Kapat <i class="icon-long-arrow-right"></i></a>
+                <div class="divider-border"><span class="sr-only"></span></div>
+            </div>
+
+            <div class="col-sm-6 pb-3">
+                <a href="https://tr-tr.facebook.com/r.php?locale=tr_TR&display=page" class="btn btn-black btn-small-font btn-solid-facebook has-radius-small"><span class="icon-facebook"><span class="sr-only">&nbsp;</span></span> FACEBOOK İLE GİRİŞ</a>
+            </div>
+            <div class="col-sm-6">
+                <a href="https://accounts.google.com/signin/v2/identifier?service=accountsettings&passive=1209600&osid=1&continue=https%3A%2F%2Fmyaccount.google.com%2Fintro%2Fprofile&followup=https%3A%2F%2Fmyaccount.google.com%2Fintro%2Fprofile&ec=GAZAwAE&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="btn btn-black btn-small-font btn-solid-google has-radius-small"><span class="icon-google-plus"><span class="sr-only">&nbsp;</span></span>GOOGLE İLE GİRİŞ</a>
+            </div>
+            <div class="divider-border"><span class="sr-only"></span></div>
+            <ul class="side-nav">
+                <li><a href="Anasayfa.aspx">Ana Sayfa</a></li>
+                <li><a href="Hakkinda.aspx">Hakkımızda</a></li>
+                <li><a href="Iletisim.aspx">İletişim</a></li>
+            </ul>
+            <nav class="header-links">
+                <ul>
+                    <li><a href="Login.aspx">Giriş</a></li>
+                    <li><a href="Kayit1.aspx">Kayıt</a></li>
+                </ul>
+            </nav>
+            <div class="divider-border"><span class="sr-only"></span></div>
+            <div class="p-3">
+                <ul class="social-network square-icon shadowed-icon">
+                    <li><a href="https://www.facebook.com/krbkuni/"><span class="icon-facebook"></span></a></li>
+                    <li><a href="https://twitter.com/krbkuni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><span class="icon-twitter"></span></a></li>
+                    <li><a href="https://www.karabuk.edu.tr/"><span class="icon-google-plus"></span></a></li>
+
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <div id="wrapper" class="no-overflow-x">
+                <div class="page-wrapper">
+                    <!-- header of the page -->
+                    <header class="fixed-top main-header header-white transparent with-side-panel-ico" id="waituk-main-header">
+                        <div id="nav-section">
+                            <div class="bottom-header container-fluid mega-menus" id="mega-menus">
+                                <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple" id="navbar-inner-container">
+                                    <id action="mega-menu-5.html" id="top-search" class="no-margin top-search">
+                                        <div class="form-group no-margin">
+                                            <input class="form-control no-border" id="search_term" name="search_term" placeholder="Type & Press Enter" type="text">
+                                        </div>
+                                    </id>
+                                    <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#mega-menu">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <a class="navbar-brand mr-auto m-sm-auto" href="Anasayfa.aspx">
+                                        <img src="img/logokbu.png" alt="Karabük Üniversitesi" width="150" height="150">
+                                        <img src="img/logokbu.png" alt="Karabuk" width="150" height="150">
+                                    </a>
+                                    <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
+                                        <ul class="nav navbar-nav">
+                                            <li>
+                                                <a href="Mesaj.aspx">Rektörün Mesajı </a>
+                                            </li>
+                                            <li>
+                                                <a href="Anasayfa.aspx" data-title="Home">ANA SAYFA </a>
+                                            </li>
+                                            <li>
+                                                <a href="Ilanlar.aspx" data-title="Özellikler">İLANLAR </a>
+                                            </li>
+                                            <li>
+                                                <a href="Etkinlikler.aspx" data-title="Etkinlikler">ETKİNLİKLER </a>
+                                                <li>
+                                                    <a href="Duyurular.aspx">DUYURULAR </a>
+                                                </li>
+                                            <li>
+                                                <a href="Hakkinda.aspx" data-title="Hakkında">HAKKINDA </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="Iletisim.aspx" data-title="İletişim">İLETİŞİM  </a>
+                                            </li>
+
+                                            <li class="dropdown cart-list margin-0-sm"></li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="nav-trigger navbar-pos-search overlay-trigger">
+                                        <a href="#" class="navbar-link"><i class="icon-sort-1"></i></a>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </header>
+
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <hr />
+
+        </div>
+        <footer class="footer footer-v1">
+            <div class="content-block footer-main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-4">
+                            <div class="footer-nav">
+                                <h4>Yönetim</h4>
+                                <ul>
+                                    <li><a href="https://www.karabuk.edu.tr/rektorluk/rkisisel/rp/index.html">Rektör</a></li>
+                                    <li><a href="https://www.karabuk.edu.tr/rektor-yardimcilari/">Rektör Yardımcıları</a></li>
+                                    <li><a href="https://www.karabuk.edu.tr/yonetim-kurulu/">Yönetim Kurulu</a></li>
+                                    <li><a href="https://gensek.karabuk.edu.tr/index.aspx">Genel Sekreterlik</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2 col-sm-4">
+                            <div class="footer-nav">
+                                <h4>Daire Başkanlıkları</h4>
+                                <ul>
+                                    <li><a href="https://bislem.karabuk.edu.tr/index.aspx">Bilgi İşlem Daire Başkanlığı</a></li>
+                                    <li><a href="https://oidb.karabuk.edu.tr/index.aspx">Ögrenci İşleri Daire Başkanlığı</a></li>
+                                    <li><a href="https://personel.karabuk.edu.tr/index.aspx">Personel Daire Başkanlığı</a></li>
+                                    <li><a href="https://kutuphane.karabuk.edu.tr/index.aspx">Kütüphane ve Dokü. Daire Başkanlığı</a></li>
+                                    <li><a href="https://yapiisleri.karabuk.edu.tr/index.aspx">Yapı İşleri ve Teknik Daire Başkanlığı</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-4">
+                            <div class="footer-nav">
+                                <h4>Sık Kullanılanlar</h4>
+                                <ul>
+                                    <li><a href="https://rehber.karabuk.edu.tr/">Telefon Rehberi</a></li>
+                                    <li><a href="https://ebys.karabuk.edu.tr/enVision/Validate_Doc.aspx">Evrak Doğrulama</a></li>
+                                    <li><a href="https://bislem.karabuk.edu.tr/bilgiguvenligi.pdf">Bilgi Güvenliği Politikaları</a></li>
+                                    <li><a href="https://www.karabuk.edu.tr/kisisel-verilerin-korunmasi-kanunu/">Kişisel Verilerin Korunması Kanunu</a></li>
+                                    <li><a href="https://www.karabuk.edu.tr/wp-content/uploads/2020/11/verisaklama_imha.pdf">Veri Saklama Ve İmha Politikası</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <h4>İletişim</h4>
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6 col">
+                                    <p>E-mail</p>
+                                    <p><a href="mailto:info@waituk.com">iletisim@karabuk.edu.tr</a></p>
+                                </div>
+                                <div class="col-md-6 col-sm-6 col">
+                                    <p>Telefon</p>
+                                    <p><a href="tel:9851108896">444 0 478</a></p>
+                                </div>
+                            </div>
+                            <div class="footer-logo mt-3">
+                                <img src="img/logokbu.png" alt="Karabük Üniversitesi" width="150" height="150">
+                            </div>
+                            <div class="mt-3">
+                                <p>Copyright 2021 Mezun Takip - <a href="https://www.waituk.com">Karabük</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </form>
+
+    <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+    <!-- jQuery Library -->
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function () {
+                var div = this.parentElement;
+                div.style.opacity = "0";
+                setTimeout(function () { div.style.display = "none"; }, 600);
+            }
+        }
+    </script>
+    <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+    <!-- Vendor Scripts -->
+    <script src="vendors/tether/dist/js/tether.min.js"></script>
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/stellar/jquery.stellar.min.js"></script>
+    <script src="vendors/isotope/javascripts/isotope.pkgd.min.js"></script>
+    <script src="vendors/isotope/javascripts/packery-mode.pkgd.js"></script>
+    <script src="vendors/owl-carousel/dist/owl.carousel.min.js"></script>
+    <script src="vendors/waypoint/waypoints.min.js"></script>
+    <script src="vendors/counter-up/jquery.counterup.min.js"></script>
+    <script src="vendors/fancyBox/source/jquery.fancybox.pack.js"></script>
+    <script src="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
+    <script src="vendors/image-stretcher-master/image-stretcher.js"></script>
+    <script src="vendors/wow/wow.min.js"></script>
+    <script src="vendors/rateyo/jquery.rateyo.min.js"></script>
+    <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+    <script src="vendors/bootstrap-slider-master/src/js/bootstrap-slider.js"></script>
+    <script src="vendors/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="js/mega-menu.js"></script>
+    <script src="vendors/retina/retina.min.js"></script>
+    <!-- Custom Script -->
+    <script src="js/jquery.main.js"></script>
+    <!-- REVOLUTION JS FILES -->
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="vendors/rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    <!-- SNOW ADD ON -->
+    <script type="text/javascript" src="vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
+    <!-- Revolution Slider Script -->
+    <script src="js/revolution.js"></script>
+
+</body>
+</html>

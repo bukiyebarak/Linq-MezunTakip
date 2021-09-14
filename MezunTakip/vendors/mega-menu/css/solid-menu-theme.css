@@ -1,0 +1,233 @@
+.solid-menus .navbar-default.navbar-default-light {
+  background: #EFEFEF;
+  border-color: #C2C2C2;
+}
+.solid-menus .navbar-default.navbar-default-light.navbar-hover .dropdown:hover > a {
+  background-color: #e7e7e7 !important;
+  color: #333 !important;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-nav .open .dropdown-menu {
+  background: white;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-nav > li > a:hover {
+  background-color: #E7E7E7 !important;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-toggle .icon-bar {
+  background-color: #777;
+}
+.solid-menus .navbar-default.navbar-default-light .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-default-light .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-default-light .mini-menu .i-list.i-list-i-block > li > a:hover {
+  background-color: #e7e7e7 !important;
+  color: #333 !important;
+}
+.solid-menus .navbar-default.navbar-default-dark {
+  background: #151515;
+  border-left: 1px solid #151515;
+  border-right: 1px solid #151515;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-toggle .icon-bar {
+  background-color: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-default-dark .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-nav > li > a:hover {
+  background: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-default-dark .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-default-dark .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark.navbar-hover .dropdown:hover > a {
+  background-color: #E00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-dark.navbar-hover .dropdown-menu > li > a:focus {
+  color: #333;
+  background-color: none;
+}
+.solid-menus .navbar-default.navbar-default-dark.navbar-hover .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark.navbar-click .dropdown:hover > a {
+  background-color: #E00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-dark.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-default-dark.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #E00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-dark .dropdown-menu {
+  background: white;
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.solid-menus .navbar-default.navbar-default-dark .navbar-pos-search .x-search i {
+  color: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark #search_term {
+  background: #151515;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-dark .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-default-dark .s-list > li > a:hover > span {
+  color: white;
+  background-color: #E00101 !important;
+}
+.solid-menus .navbar-default.navbar-default-dark .s-list.s-list-sprite > li > a:hover {
+  color: #2886D6 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-default-dark .bb-2px {
+  border-color: #E00101;
+}
+.solid-menus .navbar-default.navbar-default-dark .tile-container .tile:hover {
+  background: #E00101;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-dark .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-dark .i-list-i-block.i-list-i-block-md > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333;
+}
+.solid-menus .navbar-default.navbar-default-dark .i-list-i-block.i-list-i-block-md > li a:hover {
+  background: #E00101 !important;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-blue {
+  background: #05668D;
+  border-left: 1px solid #05668D;
+  border-right: 1px solid #05668D;
+  border-bottom: 0;
+  border-top: 0;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-brand {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-toggle {
+  border: 0;
+  padding-left: 0;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-toggle .icon-bar {
+  background-color: #4AC7F9;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-toggle:hover,
+.solid-menus .navbar-default.navbar-default-blue .navbar-toggle:focus {
+  background-color: transparent;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-nav > li > a {
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-nav > li > a:hover {
+  background: #055C7F;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-nav > .open > a,
+.solid-menus .navbar-default.navbar-default-blue .navbar-default .navbar-nav > .open > a:focus,
+.solid-menus .navbar-default.navbar-default-blue .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #055C7F;
+}
+.solid-menus .navbar-default.navbar-default-blue.navbar-hover .dropdown:hover > a {
+  background-color: #055C7F;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-blue.navbar-hover .dropdown:hover > a {
+  background-color: #055C7F;
+}
+.solid-menus .navbar-default.navbar-default-blue.navbar-click .dropdown:hover > a {
+  background-color: #055C7F;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-blue.navbar-click .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-default-blue.navbar-click .dropdown-menu > li > a:hover {
+  background-color: #055C7F;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-blue .dropdown-menu {
+  background: white;
+  border: 1px solid transparent;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+}
+.solid-menus .navbar-default.navbar-default-blue .dropdown-menu > li > a:focus,
+.solid-menus .navbar-default.navbar-default-blue .dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #055C7F;
+}
+.solid-menus .navbar-default.navbar-default-blue .navbar-pos-search .x-search i {
+  color: #4AC7F9;
+}
+.solid-menus .navbar-default.navbar-default-blue #search_term {
+  background: #05668D;
+  color: white;
+}
+.solid-menus .navbar-default.navbar-default-blue .s-list > li > a:hover,
+.solid-menus .navbar-default.navbar-default-blue .s-list > li > a:hover > span {
+  color: white !important;
+  background-color: #055C7F !important;
+}
+.solid-menus .navbar-default.navbar-default-blue .s-list.s-list-sprite > li > a:hover {
+  color: #2886D6 !important;
+  background-color: transparent !important;
+}
+.solid-menus .navbar-default.navbar-default-blue .bb-2px {
+  border-color: #055C7F;
+}
+.solid-menus .navbar-default.navbar-default-blue .tile-container .tile:hover {
+  background: #055C7F;
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-blue .tile-container .tile:hover a {
+  color: white !important;
+}
+.solid-menus .navbar-default.navbar-default-blue .i-list-i-block.i-list-i-block-md > li a {
+  display: block !important;
+  padding: 10px 20px !important;
+  text-decoration: none;
+  color: #333;
+}
+.solid-menus .navbar-default.navbar-default-blue .i-list-i-block.i-list-i-block-md > li a:hover {
+  background: #05668D !important;
+  color: white;
+}

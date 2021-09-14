@@ -1,0 +1,721 @@
+/* Primary Color */
+
+a,
+.main-header .top-header.mega-menus .i-list.i-list-i-block.i-list-i-block-sm > li a:hover,
+.main-header .i-list.i-list-i-block.i-list-i-block-sm li a:hover,
+.main-header.header-white .mini-nav:hover > a,
+.visual-title span,
+.content-links ul li a,
+.circular-icon,
+.heading h2 span,
+.ico-box:hover .icon,
+.ico-box:hover .content-title,
+.ico-box:hover .icon a,
+.ico-box:hover .content-title a,
+.ico-box .link-holder .link-more:hover,
+.filter-nav button:hover,
+.filter-nav button.is-checked,
+.team-box:hover .team-des-v2 .name,
+.testimonial-container h2,
+.caption-hover-full .trigger,
+.contact-list a:hover,
+.tab-container .tab-text-nav .nav-link:hover,
+.tab-container .tab-text-nav .nav-link:focus,
+.tab-container .tab-text-nav .nav-link.active,
+.tab-container .tab-text-nav .nav-link.active:focus,
+.tab-container .tab-text-nav .nav-link.active:hover,
+.tab-container .tab-text-nav .open .nav-link,
+.tab-container .tab-text-nav .open .nav-link:focus,
+.tab-container .tab-text-nav .open .nav-link:hover,
+.tab-container .tab-icon-nav .nav-link:hover,
+.tab-container .tab-icon-nav .nav-link:focus,
+.tab-container .tab-icon-nav .nav-link.active,
+.tab-container .tab-icon-nav .nav-link.active:focus,
+.tab-container .tab-icon-nav .nav-link.active:hover,
+.tab-container .tab-icon-nav .open .nav-link,
+.tab-container .tab-icon-nav .open .nav-link:focus,
+.tab-container .tab-icon-nav .open .nav-link:hover,
+.icon-lists ul li a:hover,
+.pagination-block .pagination > li a,
+.pagination-block .pagination > li span,
+.waituk_select-box .solid-box.waituk_select-box-primary input[type='radio']:checked ~ label:before,
+.waituk_select-box .solid-box.waituk_select-box-primary input[type='checkbox']:checked ~ label:before,
+.slider-sub-title,
+.blog-holder .blog-desc:hover .blog-title h6 a,
+.comment-block .comment-slot .comment-desc a:hover,
+.blog-lists .blog-list-items li a:hover,
+.related-posts .post-text a:hover,
+.post-block .post-holder:hover .post-desc a,
+.twitter-feed .tweet-holder .twit-desc h6 a:hover,
+.twitter-feed .tweet-holder .twit-desc p a,
+.twitter-feed .tweet-holder .twit-desc p a:hover,
+.twitter-feed .tweet-holder:hover h6 a,
+.twitter-feed .tweet-holder:hover .twit-ico,
+.footer-v3 .bg-white .widget-block .post-block .post-holder:hover h6 a,
+.footer-v3 .bg-white .footer-nav ul li a:hover,
+.text-primary
+{
+    color: #c02127;
+}
+
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
+.btn.btn-primary,
+.btn.btn-trans-primary:hover,
+.btn-alternate.btn.btn-primary,
+.picture-item .link-box a:hover,
+.port-v2 figcaption .link-box a,
+.team-box figcaption,
+.team-box .figcaption,
+.count-block .col-wrap:hover,
+.tab-container .tab-button-nav .nav-link:hover,
+.tab-container .tab-button-nav .nav-link:focus,
+.tab-container .tab-button-nav .nav-link.active,
+.tab-container .tab-button-nav .nav-link.active:focus,
+.tab-container .tab-button-nav .nav-link.active:hover,
+.tab-container .tab-button-nav .open .nav-link,
+.tab-container .tab-button-nav .open .nav-link:focus,
+.tab-container .tab-button-nav .open .nav-link:hover,
+.tab-container .tab-text-nav .nav-link:before,
+.accordion-container.accordion-secondary .card .card-header,
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active:hover:hover,
+.datepicker table tr td.active.disabled:hover,
+.datepicker table tr td.active.disabled:hover:hover,
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active:hover.disabled,
+.datepicker table tr td.active.disabled.disabled,
+.datepicker table tr td.active.disabled:hover.disabled,
+.datepicker table tr td.active[disabled],
+.datepicker table tr td.active:hover[disabled],
+.datepicker table tr td.active.disabled[disabled],
+.datepicker table tr td.active.disabled:hover[disabled],
+.datepicker table tr td.today,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today:hover,
+.datepicker table tr td.today:hover:hover,
+.datepicker table tr td.today.disabled:hover,
+.datepicker table tr td.today.disabled:hover:hover,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:hover:active,
+.datepicker table tr td.today.disabled:active,
+.datepicker table tr td.today.disabled:hover:active,
+.datepicker table tr td.today.active,
+.datepicker table tr td.today:hover.active,
+.datepicker table tr td.today.disabled.active,
+.datepicker table tr td.today.disabled:hover.active,
+.datepicker table tr td.today.disabled,
+.datepicker table tr td.today:hover.disabled,
+.datepicker table tr td.today.disabled.disabled,
+.datepicker table tr td.today.disabled:hover.disabled,
+.datepicker table tr td.today[disabled],
+.datepicker table tr td.today:hover[disabled],
+.datepicker table tr td.today.disabled[disabled],
+.datepicker table tr td.today.disabled:hover[disabled],
+.waituk_range-block .slider .slider-selection,
+.waituk_range-block .slider .slider-handle,
+.waituk_range-block .slider .slider-tick.in-selection,
+.waituk_select-box .waituk_select-box-primary input[type='radio']:checked ~ label:before,
+.waituk_select-box .waituk_select-box-primary input[type='checkbox']:checked ~ label:before,
+.select-picker-block .btn.btn-primary,
+.tag-block ul li a:hover,
+.tparrows
+{
+    background: #c02127;
+}
+
+.coffee_cup:before,
+.pagination-block .pagination > li > a:focus,
+.pagination-block .pagination > li > a:hover,
+.pagination-block .pagination > li > span:focus,
+.pagination-block .pagination > li > span:hover,
+.pagination-block .pagination > .active > a,
+.pagination-block .pagination > .active > a:focus,
+.pagination-block .pagination > .active > a:hover,
+.pagination-block .pagination > .active > span,
+.pagination-block .pagination > .active > span:focus,
+.pagination-block .pagination > .active > span:hover,
+.pagination-block .pagination.solid-nav > li:hover,
+.waituk_datetimepicker-block .input-group-addon,
+.select-picker-block .dropdown-menu > .active > a,
+.select-picker-block .dropdown-menu > .active > a:focus,
+.select-picker-block .dropdown-menu > .active > a:hover,
+.bg-primary
+{
+    background-color: #c02127;
+}
+
+.coffee_cup,
+.coffee_cup:after,
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn,
+.btn,
+.btn.btn-primary,
+.btn.btn-trans-primary,
+.btn-alternate.btn,
+.btn-alternate.btn.btn-primary,
+.circular-icon,
+.pagination-block .pagination > li > a:focus,
+.pagination-block .pagination > li > a:hover,
+.pagination-block .pagination > li > span:focus,
+.pagination-block .pagination > li > span:hover,
+.pagination-block .pagination > .active > a,
+.pagination-block .pagination > .active > a:focus,
+.pagination-block .pagination > .active > a:hover,
+.pagination-block .pagination > .active > span,
+.pagination-block .pagination > .active > span:focus,
+.pagination-block .pagination > .active > span:hover,
+.pagination-block .pagination.solid-nav > li:hover
+{
+    border-color: #c02127;
+}
+
+.picture-item .link-box
+{
+    border-right-color: #c02127;
+}
+
+.picture-item .link-box a:first-child
+{
+    border-bottom-color: #c02127;
+}
+
+.coffee_cup:before
+{
+    box-shadow: 5px 0 0 0 #c02127, 5px -5px 0 0 #c02127, 10px 0 0 0 #c02127;
+}
+
+/* Primary Darken */
+
+a:hover,
+a:focus,
+.content-links ul li a:hover,
+.content-links ul li a:focus,
+.slider-title span
+{
+    color: #930e13;
+}
+
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.btn.btn-primary:hover,
+.btn-alternate.btn.btn-primary:hover,
+.select-picker-block .btn.btn-primary:hover,
+.tparrows:hover
+{
+    background: #930e13;
+}
+
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.btn.btn-primary:hover,
+.btn-alternate.btn.btn-primary:hover
+{
+    border-color: #930e13;
+}
+
+
+/* Secondary Color */
+
+.tab-container.tab-secondary .tab-text-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-text-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link:hover,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:hover,
+.waituk_select-box .solid-box.waituk_select-box-secondary input[type='radio']:checked ~ label:before,
+.waituk_select-box .solid-box.waituk_select-box-secondary input[type='checkbox']:checked ~ label:before,
+.text-secondary
+{
+    color: #ff6138;
+}
+
+.btn.btn-secondary,
+.btn-alternate.btn.btn-secondary,
+.btn-alternate.btn.btn-trans-primary:hover,
+.btn-alternate.btn.btn-trans-secondary:hover,
+.tab-container.tab-secondary .tab-button-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-button-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link:hover,
+.tab-container.tab-secondary .tab-text-nav .nav-link:before,
+.waituk_select-box .waituk_select-box-secondary input[type='radio']:checked ~ label:before,
+.waituk_select-box .waituk_select-box-secondary input[type='checkbox']:checked ~ label:before,
+.select-picker-block .btn.btn-secondary
+{
+    background: #ff6138;
+}
+
+.bg-secondary
+{
+    background-color: #ff6138;
+}
+
+.btn.btn-secondary,
+.btn.btn-trans-secondary,
+.btn-alternate.btn.btn-secondary,
+.btn-alternate.btn.btn-trans-primary,
+.btn-alternate.btn.btn-trans-secondary
+{
+    border-color: #ff6138;
+}
+
+/* Light Grey */
+
+.main-header.header-white.transparent .navbar-pos-search a.icon-close-round,
+.main-header .navbar .navbar-nav li a:hover,
+.main-header .navbar .navbar-nav li a:focus,
+.main-header.header-white #top-search input,
+.btn.btn-trans-gray,
+.btn.btn-trans-gray-light,
+.btn-alternate.btn.btn-trans-gray,
+.ico-box.dark-hover:hover .des,
+.ico-box.dark-hover:hover .link-more,
+.filter-nav-v2 li:before,
+.filter-nav-v2 button,
+.team-box .team-des-v2 .sub,
+.count-block,
+.count-block .number,
+.social-network a:hover,
+.breadcrumb-block .breadcrumb .breadcrumb-item a:hover,
+.visual-no-bg .breadcrumb .breadcrumb-item a:hover,
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next,
+.blockquote-block blockquote small,
+.waituk_select-box .solid-box input[type='radio']:empty ~ label:before,
+.waituk_select-box .solid-box input[type='checkbox']:empty ~ label:before,
+.select-picker-block .btn
+{
+    color: #c1c5cd;
+}
+
+.btn.btn-trans-gray:hover,
+.btn.btn-trans-gray-light:hover,
+.btn-alternate.btn.btn-trans-gray:hover,
+.no-gutter-slide .owl-dots .owl-dot span,
+.waituk_range-block .slider .slider-track,
+.waituk_range-block .slider .slider-tick,
+.waituk_select-box input[type='radio']:empty ~ label:before,
+.waituk_select-box input[type='checkbox']:empty ~ label:before,
+.waituk_select-box input[type='radio']:checked ~ label:before,
+.waituk_select-box input[type='checkbox']:checked ~ label:before,
+.waituk_select-box .waituk_select-box-default input[type='radio']:checked ~ label:before,
+.waituk_select-box .waituk_select-box-default input[type='checkbox']:checked ~ label:before,
+.bg-dark
+{
+    background: #c1c5cd;
+}
+
+.btn.btn-trans-gray,
+.btn.btn-trans-gray-light,
+.btn-alternate.btn.btn-trans-gray,
+.tab-container .tab-text-nav,
+.tab-container .tab-icon-nav,
+.tab-container.tab-secondary .tab-text-nav,
+.tab-container.tab-secondary .tab-icon-nav,
+.tab-container.tab-black .tab-text-nav,
+.tab-container.tab-black .tab-icon-nav,
+.select-picker-block .btn
+{
+    border-color: #c1c5cd;
+}
+
+.accordion-container.accordion-secondary .panel-icon .card .card-header
+{
+    border-bottom-color: #c1c5cd;
+}
+
+/* Dark Grey */
+
+.content-sub-title,
+.ico-box .icon,
+.ico-box .des,
+.filter-nav-v2 button.is-checked,
+.testimonial-container .designation,
+.post-grid,
+.post-grid a,
+.info-slot,
+.contact-list a,
+.tab-container .tab-content,
+.accordion-container .card .card-block,
+.accordion-container .panel-icon .card .card-header h5 a,
+.accordion-container.accordion-secondary .card .card-block,
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover,
+.icon-border,
+.icon-border-right,
+.mid-icon-border,
+.white-overlay .nav-wrap ul.side-nav > li > a,
+.white-overlay .nav-wrap .header-links ul > li > a,
+.slider-main-title,
+.slider-text,
+.twitter-feed .tweet-holder .twit-ico,
+.footer .widget-block h4
+{
+    color: #575757;
+}
+
+.information-block .info-block.block-1:before,
+.information-block .info-block.block-3:before,
+.information-block .info-block.block-4:before,
+.no-gutter-slide .owl-dots .owl-dot.active span,
+.no-gutter-slide .owl-dots .owl-dot:hover span
+{
+    background: #575757;
+}
+
+/* Light Black */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h2,
+.main-header.header-white.transparent.sticky-nav .navbar .navbar-nav > li > a,
+.main-header.header-white.transparent.sticky-nav .navbar-pos-search a.x-search-trigger,
+.main-header.header-white.transparent.sticky-nav .navbar-pos-search .icon-sort-1,
+.main-header.header-white .navbar .navbar-nav li,
+.main-header.header-white .navbar .navbar-nav li a,
+.main-header.header-white .navbar .navbar-nav li .dropdown-menu li:hover > a,
+.main-header.header-white .navbar-pos-search a,
+.main-header.header-white .mini-nav .dropdown-menu.pad-small li .pad-narrow,
+.main-header.header-white .mini-nav .dropdown-menu.pad-small li .pad-narrow:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h2,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h4,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6 strong,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6 a,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6 strong:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu h6 a:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .text-muted,
+.visual-no-bg .visual-title,
+.btn.btn-trans-primary,
+.btn.btn-trans-secondary,
+.btn.btn-trans-white:hover,
+.btn.btn-white,
+.btn-alternate.btn.btn-trans-primary,
+.btn-alternate.btn.btn-trans-secondary,
+.btn-alternate.btn.btn-trans-white:hover,
+.btn-alternate.btn.btn-white,
+.content-title a,
+.content-slot big,
+.alternate-block-v2 h3,
+.text-block strong,
+.text-block .text-block-title,
+.widget-block h4,
+.block-main-heading,
+.block-sub-heading,
+.block-sub-heading big,
+.block-top-heading,
+.block-heading .content-title,
+.heading h2,
+.ico-box .icon,
+.ico-box .content-title,
+.ico-box .icon a,
+.ico-box .content-title a,
+.filter-nav li:not(:first-child):before,
+.filter-nav button,
+.filter-nav-v2 button:hover,
+.caption-slide-left figcaption,
+.caption-slide-left .figcaption,
+.info-list [class^='custom-'],
+.info-list .text,
+.team-box .team-des-v2,
+.team-box:hover .team-des-v2 .sub,
+.form-control,
+.form-control:focus,
+.waituk_newsletter-form .btn.btn-trans-dark-gray,
+.waituk_newsletter-form input[type='email'],
+.waituk_newsletter-form ::-webkit-input-placeholder,
+.waituk_newsletter-form :-moz-placeholder,
+.waituk_newsletter-form ::-moz-placeholder,
+.waituk_newsletter-form :-ms-input-placeholder,
+.waituk_newsletter-form.newsletter-v1 .btn,
+.social-network a,
+.visual-no-bg .breadcrumb .breadcrumb-item,
+.visual-no-bg .breadcrumb .breadcrumb-item.active,
+.visual-no-bg .breadcrumb .breadcrumb-item + .breadcrumb-item:before,
+.visual-no-bg .breadcrumb .breadcrumb-item a,
+.tab-container .nav-tabs .nav-link,
+.tab-container .tab-button-nav .nav-link,
+.tab-container .tab-text-nav .nav-link,
+.tab-container .tab-icon-nav .icon,
+.tab-container .tab-icon-nav .nav-link,
+.tab-container .tab-icon-nav .nav-link:hover .icon,
+.tab-container .tab-icon-nav .nav-link:focus .icon,
+.tab-container .tab-icon-nav .nav-link.active .icon,
+.tab-container .tab-icon-nav .nav-link.active:focus .icon,
+.tab-container .tab-icon-nav .nav-link.active:hover .icon,
+.tab-container .tab-icon-nav .open .nav-link .icon,
+.tab-container .tab-icon-nav .open .nav-link:focus .icon,
+.tab-container .tab-icon-nav .open .nav-link:hover .icon,
+.tab-container.tab-secondary .nav-tabs .nav-link,
+.tab-container.tab-secondary .tab-button-nav .nav-link,
+.tab-container.tab-secondary .tab-text-nav .nav-link,
+.tab-container.tab-secondary .tab-icon-nav .icon,
+.tab-container.tab-secondary .tab-icon-nav .nav-link,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:hover .icon,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:focus .icon,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active .icon,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:focus .icon,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:hover .icon,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link .icon,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:focus .icon,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:hover .icon,
+.tab-container.tab-black .nav-tabs .nav-link,
+.tab-container.tab-black .tab-button-nav .nav-link,
+.tab-container.tab-black .tab-text-nav .nav-link,
+.tab-container.tab-black .tab-icon-nav .icon,
+.tab-container.tab-black .tab-icon-nav .nav-link,
+.tab-container.tab-black .tab-icon-nav .nav-link:hover .icon,
+.tab-container.tab-black .tab-icon-nav .nav-link:focus .icon,
+.tab-container.tab-black .tab-icon-nav .nav-link.active .icon,
+.tab-container.tab-black .tab-icon-nav .nav-link.active:focus .icon,
+.tab-container.tab-black .tab-icon-nav .nav-link.active:hover .icon,
+.tab-container.tab-black .tab-icon-nav .open .nav-link .icon,
+.tab-container.tab-black .tab-icon-nav .open .nav-link:focus .icon,
+.tab-container.tab-black .tab-icon-nav .open .nav-link:hover .icon,
+.pricing-block h3,
+.pricing-block h4,
+.icon-lists ul li,
+.icon-lists ul li a,
+.pagination-block .pagination .disabled .page-link,
+.pagination-block .pagination.solid-nav > li .page-link,
+.blockquote-block blockquote,
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover,
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused,
+.waituk_select-box input[type='radio']:checked ~ label,
+.waituk_select-box input[type='checkbox']:checked ~ label,
+.select-picker-block .dropdown-menu > li > a,
+.search-form-wrapper.dark-text .form-control,
+.search-form-wrapper.dark-text input,
+.search-form-wrapper.dark-text textarea,
+.search-form-wrapper.dark-text button,
+.search-form-wrapper.dark-text .close,
+.search-form-wrapper.dark-text button:hover,
+.search-form-wrapper.dark-text .form-control:focus ~ button,
+.search-form-wrapper.dark-text .form-control:hover ~ button,
+.search-form-wrapper.dark-text input:focus ~ button,
+.search-form-wrapper.dark-text input:hover ~ button,
+.search-form-wrapper.dark-text textarea:focus ~ button,
+.search-form-wrapper.dark-text textarea:hover ~ button,
+.search-form-wrapper.dark-text ::-webkit-input-placeholder,
+.search-form-wrapper.dark-text :-moz-placeholder,
+.search-form-wrapper.dark-text ::-moz-placeholder,
+.search-form-wrapper.dark-text :-ms-input-placeholder,
+.tag-block ul li,
+.tag-block ul li a,
+.blog-holder .blog-desc h6 a,
+.comment-block h5 a,
+.comment-block .comment-slot .comment-desc a,
+.about-author h4,
+.post-block .post-holder .post-desc p,
+.twitter-feed .tweet-holder .twit-desc h6,
+.twitter-feed .tweet-holder .twit-desc h6 a,
+.twitter-feed .tweet-holder .twit-desc p,
+.footer .footer-main .icon,
+.footer-v3 .bg-white .widget-block h4
+{
+    color: #55565b;
+}
+
+.main-header.header-dark,
+.main-header.header-light,
+.main-header.header-white .navbar-toggler .navbar-toggler-icon,
+.main-header.header-white .navbar-toggler .navbar-toggler-icon:before,
+.main-header.header-white .navbar-toggler .navbar-toggler-icon:after,
+.btn-alternate.btn.btn-trans-dark-gray:hover,
+.information-block .info-block.block-2:before,
+.alternate-block-v2 .btn-primary,
+.ico-box.dark-hover:before,
+.fancybox-close,
+.fancybox-nav span,
+.owl-carousel.portfolio-slide .owl-nav .owl-prev,
+.owl-carousel.portfolio-slide .owl-nav .owl-next,
+.icon-lists.solid-icons ul li span,
+.datepicker table tr td.selected,
+.datepicker table tr td.selected:hover,
+.datepicker table tr td.selected.disabled,
+.datepicker table tr td.selected.disabled:hover
+{
+    background: #55565b;
+}
+
+.btn-alternate.btn.btn-trans-dark-gray,
+.alternate-block-v2 .btn-primary,
+.waituk_newsletter-form input[type='email'],
+.social-network.round-icon li a,
+.social-network.square-icon li a,
+.icon-lists.round-icons ul li span,
+.icon-lists.square-icons ul li span,
+.icon-lists.solid-icons ul li span,
+.search-form-wrapper.dark-text .form-control,
+.search-form-wrapper.dark-text input,
+.search-form-wrapper.dark-text textarea,
+.search-form-wrapper.dark-text button,
+.search-form-wrapper.dark-text .close
+{
+    border-color: #55565b;
+}
+
+/* Dark Black */
+.ico-box .link-holder .link-more,
+.post-grid:hover .content-title a,
+.post-grid:hover .post-link-holder a,
+.accordion-container.accordion-secondary .panel-icon .card .card-header h5 a,
+.btn .custom-badge.badge,
+.post-block .post-holder .post-desc h6,
+.post-block .post-holder .post-desc h6 a,
+.post-block .post-holder .post-desc p a
+{
+    color: #212121;
+}
+
+.main-header .navbar .navbar-nav li .dropdown-menu,
+.main-header .mini-nav .dropdown-menu.pad-small,
+.main-header,
+.main-header.sticky-nav,
+.btn.btn-trans-dark-gray:hover,
+.count-block.solid-block,
+.post-date,
+.accordion-container .card .card-header,
+.label-block .custom-badge.badge,
+.footer .footer-bottom,
+.footer-v1 .footer-main,
+.bg-darker
+{
+    background: #212121;
+}
+
+.btn.btn-trans-dark-gray
+{
+    border-color: #212121;
+}
+
+/* Off White */
+
+.main-header.header-white .navbar .navbar-nav li .dropdown-menu,
+.main-header.header-white .navbar .navbar-nav li .dropdown-menu li:hover,
+.main-header.header-white .mini-nav .dropdown-menu.pad-small li .pad-narrow:hover,
+.search-form-wrapper .form-control::-moz-selection,
+.search-form-wrapper input::-moz-selection,
+.search-form-wrapper textarea::-moz-selection,
+.search-form-wrapper .form-control::selection,
+.search-form-wrapper input::selection,
+.search-form-wrapper textarea::selection,
+.search-form-wrapper .form-control::-moz-selection,
+.search-form-wrapper input::-moz-selection,
+.search-form-wrapper textarea::-moz-selection,
+pre,
+.social-network.round-icon li a:hover,
+.social-network.square-icon li a:hover,
+.tab-container .tab-button-nav .nav-link,
+.tab-container.tab-secondary .tab-button-nav .nav-link,
+.tab-container.tab-black .tab-button-nav .nav-link,
+.datepicker .datepicker-switch:hover,
+.datepicker .prev:hover,
+.datepicker .next:hover,
+.datepicker tfoot tr th:hover,
+.datepicker table tr td.day:hover,
+.datepicker table tr td.day.focused,
+.media-block,
+.select-picker-block .btn.btn-tertiary,
+.tag-block ul li a,
+.blog-holder .blog-share,
+.comment-block,
+.footer-v3 .bg-white .divider-border,
+.bg-gray-light
+{
+    background: #f8f8f8;
+}
+
+.grid-box .grid-box-demo,
+.data-table .table-striped tbody tr:nth-of-type(odd),
+.data-table .table-hover tbody tr:hover,
+.select-picker-block .dropdown-menu > li > a:focus,
+.select-picker-block .dropdown-menu > li > a:hover
+{
+    background-color: #f8f8f8;
+}
+
+.main-header.header-white .row-autoheight .col-autoheight:not(:first-child),
+.main-header.header-white .mini-nav .dropdown-menu.pad-small li,
+.social-network.round-icon li a:hover,
+.social-network.square-icon li a:hover,
+.white-overlay .nav-wrap ul.side-nav > li,
+.white-overlay .nav-wrap .header-links ul > li,
+.white-overlay .nav-wrap .nav-desc,
+.white-overlay .nav-wrap .header-links,
+.blog-holder .blog-desc,
+.comment-block
+{
+    border-color: #f8f8f8;
+}
+
+.pricing-box-v1 .plan-features ul li,
+.pricing-box-v1 .btn-holder,
+.blog-holder .blog-share,
+.comment-block .comment-reply .comment-desc,
+.blog-lists
+{
+    border-top-color: #f8f8f8;
+}
+
+.blockquote-block.text-right blockquote
+{
+    border-right-color: #f8f8f8;
+}
+
+.blog-holder .blog-desc .blog-title,
+.blog-lists
+{
+    border-bottom-color: #f8f8f8;
+}
+
+.blockquote-block blockquote,
+.comment-block .comment-reply .comment-desc
+{
+    border-left-color: #f8f8f8;
+}
+
+.blockquote-block.blockquote-block-v4 blockquote
+{
+    box-shadow: inset 0 0 0 .3125rem #f8f8f8;
+}

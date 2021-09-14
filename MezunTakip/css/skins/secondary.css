@@ -1,0 +1,56 @@
+.tab-container.tab-secondary .tab-text-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-text-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-text-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-text-nav .open .nav-link:hover,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-icon-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-icon-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-icon-nav .open .nav-link:hover,
+.waituk_select-box .solid-box.waituk_select-box-secondary input[type='radio']:checked ~ label:before,
+.waituk_select-box .solid-box.waituk_select-box-secondary input[type='checkbox']:checked ~ label:before,
+.text-secondary
+{
+    color: #ff6138;
+}
+
+.btn.btn-secondary,
+.btn-alternate.btn.btn-secondary,
+.btn-alternate.btn.btn-trans-primary:hover,
+.btn-alternate.btn.btn-trans-secondary:hover,
+.tab-container.tab-secondary .tab-button-nav .nav-link:hover,
+.tab-container.tab-secondary .tab-button-nav .nav-link:focus,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active:focus,
+.tab-container.tab-secondary .tab-button-nav .nav-link.active:hover,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link:focus,
+.tab-container.tab-secondary .tab-button-nav .open .nav-link:hover,
+.tab-container.tab-secondary .tab-text-nav .nav-link:before,
+.waituk_select-box .waituk_select-box-secondary input[type='radio']:checked ~ label:before,
+.waituk_select-box .waituk_select-box-secondary input[type='checkbox']:checked ~ label:before,
+.select-picker-block .btn.btn-secondary
+{
+    background: #ff6138;
+}
+
+.bg-secondary
+{
+    background-color: #ff6138;
+}
+
+.btn.btn-secondary,
+.btn.btn-trans-secondary,
+.btn-alternate.btn.btn-secondary,
+.btn-alternate.btn.btn-trans-primary,
+.btn-alternate.btn.btn-trans-secondary
+{
+    border-color: #ff6138;
+}

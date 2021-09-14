@@ -1,0 +1,19 @@
+{
+  "name": "image-stretcher",
+  "version": "1.0.1",
+  "description": "image-stretcher.js",
+  "main": "image-stretcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mervick/image-stretcher.git"
+  },
+  "author": "Ashley Hitchcock <hello@ashleyhitchcock.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mervick/image-stretcher/issues"
+  },
+  "homepage": "https://github.com/mervick/image-stretcher"
+}

@@ -1,0 +1,30 @@
+a:hover,
+a:focus,
+.content-links ul li a:hover,
+.content-links ul li a:focus,
+.slider-title span
+{
+    color: #2812ff;
+}
+
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.btn.btn-primary:hover,
+.btn-alternate.btn.btn-primary:hover,
+.select-picker-block .btn.btn-primary:hover,
+.tparrows:hover
+{
+    background: #2812ff;
+}
+
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:hover,
+.header-white .mega-menus .mega-menu-multiple .cart-list .dropdown-menu-container > .dropdown-menu .btn:focus,
+.btn.btn-primary:hover,
+.btn-alternate.btn.btn-primary:hover
+{
+    border-color: #2812ff;
+}
